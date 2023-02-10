@@ -1,0 +1,25 @@
+.App{
+  display: flex;
+  justify-content: center;
+}
+
+.container-dni{
+  height: 200px;
+  width: 300px;
+  background-color: antiquewhite;
+
+}
+.container-dni label{
+  display: flex;
+  margin: 0px;
+  box-sizing: content-box;
+}
+.container-dni span{
+  margin: 0px;
+  font-weight: bold;
+  box-sizing: content-box;
+}
+.search-doc{
+  display: flex;
+  justify-content: center;
+}
