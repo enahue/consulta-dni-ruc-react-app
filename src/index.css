@@ -6,7 +6,7 @@ body{
   display: flex;
   justify-content: center;
   /* justify-items: center; */
-  background-color: azure;
+  background-color: rgb(52, 58, 58);
   place-items: center;
   min-height: 100vh;
 }

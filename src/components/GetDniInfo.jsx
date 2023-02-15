@@ -2,20 +2,20 @@ const GetDniInfo = ({ getDni }) => {
   return (
     <div className="container-dni">
       <label className="lbl-info-dni">
-        <span>Dni: </span>
-        {getDni?.dni}
+        <span className="unit-info">DNI: </span><span className="data-result">
+        {getDni?.dni}</span>
       </label>
       <label className="lbl-info-dni">
-        <span>Nombres: </span>
-        {getDni?.nombres}
+        <span className="unit-info">NOMBRES: </span><span className="data-result">
+        {getDni?.nombres}</span>
       </label>
       <label className="lbl-info-dni">
-        <span>Apellidos: </span>
-        {getDni?.apellidoPaterno} {getDni?.apellidoMaterno}
+        <span className="unit-info">APELLIDOS: </span> <span className="data-result">
+        {getDni?.apellidoPaterno} {getDni?.apellidoMaterno}</span>
       </label>
-      <label className="lbl-info-alldata">
-        <span>Datos completos: </span>
-        {getDni?.apellidoPaterno} {getDni?.apellidoMaterno} {getDni?.nombres}
+      <label className="lbl-info-alldata lbl-info-dni">
+        <span className="unit-info">DATOS COMPLETOS: </span><span className="data-result">
+        {getDni?.apellidoPaterno} {getDni?.apellidoMaterno} {getDni?.nombres}</span>
       </label>
     </div>
   );

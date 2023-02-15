@@ -5,6 +5,7 @@
 }
 .app-title{
   text-align: center;
+  color: white;
 }
 .container-dni {
   display: flex;
@@ -15,9 +16,20 @@
   background-color: rgb(73, 240, 137);
   border-radius: 15px;
   justify-content: center;
-  padding: 12px;
+  padding: 15px;
+  box-shadow: 6px 5px 5px rgb(144, 185, 176);
 }
-.container-dni label {
+
+
+
+.unit-info{
+  margin-right:6px;
+  font-weight: bold;
+  box-sizing: content-box;
+  color: rgb(46, 70, 70)
+}
+
+.lbl-info-dni{
   display: flex;
   margin: 0px;
   margin-right: 5px;
@@ -25,11 +37,7 @@
   padding-top: 18px;
   padding-left: 12px;
 }
-.container-dni span {
-  margin-right:6px;
-  font-weight: bold;
-  box-sizing: content-box;
-}
+
 .lbl-info-alldata{
   padding-bottom: 8px;
 }
@@ -56,4 +64,12 @@
   height: 29px;
   margin-left: 5px;
   color: green;
+}
+
+.data-result{
+  background-color: azure;
+  padding-top: 0;
+  padding: 2px;
+  border-radius: 5px;
+  margin: 0;
 }
