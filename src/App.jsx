@@ -27,10 +27,10 @@ function App() {
 
   return (
     <div name="App">
-      <h1>Consulta Dni Ruc</h1>
+      <h1 className="app-title">Consulta Dni Ruc</h1>
       <div className="search-doc">
         <form onSubmit={handleSubmit}>
-          <input type="number" placeholder="Ingresa un DNI" maxLength={8} id="numberDni" />
+          <input type="text" placeholder="Ingresa un DNI" maxLength={8} id="numberDni" className="input-dni"/>
           <div>
             <button>
               <i className="bx bx-search-alt-2"></i>

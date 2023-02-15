@@ -13,6 +13,10 @@ const GetDniInfo = ({ getDni }) => {
         <span>Apellidos: </span>
         {getDni?.apellidoPaterno} {getDni?.apellidoMaterno}
       </label>
+      <label className="lbl-info-alldata">
+        <span>Datos completos: </span>
+        {getDni?.apellidoPaterno} {getDni?.apellidoMaterno} {getDni?.nombres}
+      </label>
     </div>
   );
 };
